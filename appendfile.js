@@ -6,4 +6,4 @@ fs.appendFile('newfile.txt', '\nAppended content', 'utf8', (error) => {
     } else {
       console.log('Content appended successfully');
     }
-  });
+  }); 

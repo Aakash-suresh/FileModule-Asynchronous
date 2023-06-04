@@ -6,4 +6,4 @@ fs.rename('newfile.txt', 'renamedfile.txt', (error) => {
     } else {
       console.log('File renamed successfully');
     }
-  });
+  }); 

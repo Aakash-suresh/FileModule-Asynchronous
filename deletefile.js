@@ -6,4 +6,4 @@ fs.unlink('renamedfile.txt', (error) => {
     } else {
       console.log('File deleted successfully');
     }
-  });
+  }); 

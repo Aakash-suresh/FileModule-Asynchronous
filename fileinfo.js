@@ -6,5 +6,5 @@ fs.stat('file.txt', (error, fileStats) => {
     } else {
       console.log('File size:', fileStats.size, 'bytes');
       console.log('File last modified:', fileStats.mtime);
-    }
+    } 
   });
